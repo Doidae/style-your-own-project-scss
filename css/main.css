@@ -1,0 +1,41 @@
+#gameCanvas {
+  border: 1px solid #000;
+  width: 800px;
+  height: 600px;
+  margin: 0 auto;
+  display: block;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+#gameCanvas .player {
+  width: 40px;
+  height: 30px;
+  background-color: #00F;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+#gameCanvas .enemy {
+  width: 30px;
+  height: 30px;
+  background-color: #7AD0B2;
+  margin: 5px;
+  border-radius: 3px;
+  transition: all 0.2s;
+}
+#gameCanvas .bullet {
+  width: 5px;
+  height: 10px;
+  background-color: #0F0;
+  border-radius: 2px;
+  transition: all 0.1s;
+}
+
+#scoreBoard {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #000099;
+}
+#scoreBoard.highlight {
+  color: #a0ddc8;
+}
+
+/*# sourceMappingURL=main.css.map */

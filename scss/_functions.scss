@@ -1,0 +1,7 @@
+@function calculate-width($columns, $gutter) {
+    @return ($columns * 30px) + (($columns - 1) * $gutter);
+}
+
+@function calculate-height($rows, $gutter) {
+    @return ($rows * 30px) + (($rows - 1) * $gutter);
+}

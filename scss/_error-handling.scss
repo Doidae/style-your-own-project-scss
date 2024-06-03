@@ -1,0 +1,7 @@
+@mixin invalid-property($property) {
+    @if ($property == null) {
+        @error "Property cannot be null.";
+    } @else {
+        #{$property}: initial;
+    }
+}

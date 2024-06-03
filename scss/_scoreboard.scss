@@ -1,0 +1,11 @@
+@import 'variables';
+
+#scoreBoard {
+    font-size: $font-size;
+    margin-bottom: $score-margin-bottom;
+    color: darken($player-color, 20%);
+    
+    &.highlight {
+        color: lighten($enemy-color, 10%);
+    }
+    }
